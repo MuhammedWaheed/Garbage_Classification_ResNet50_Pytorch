@@ -1,6 +1,21 @@
 
 # 🗑️ Waste Classification using ResNet50 (PyTorch)
 
+## 🎯 Project Objective
+
+The goal of this project is to build an automated system capable of **classifying different types of waste** using computer vision.  
+This supports:
+
+- ♻️ Improving recycling efficiency  
+- 🤖 Enabling automated waste-sorting machines  
+- 🔍 Reducing sorting errors  
+- 🚀 Supporting smart-city waste management  
+
+The model predicts one of 6 classes:  
+**cardboard, glass, metal, paper, plastic, trash**.
+
+---
+
 This project builds an image classification model to classify waste into 6 categories using a **pretrained ResNet50 model** fine-tuned in PyTorch.  
 The goal is to help automate waste sorting using computer vision.
 
