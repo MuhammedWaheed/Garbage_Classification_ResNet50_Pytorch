@@ -1,5 +1,5 @@
 
-# 🗑️ Waste Classification using ResNet50 (PyTorch)
+# 🗑️ Garbage Classification using ResNet50 (PyTorch)
 
 ## 🎯 Project Objective
 
@@ -23,6 +23,8 @@ The goal is to help automate waste sorting using computer vision.
 
 ## 📁 Dataset
 
+link on Kaggle: (https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/)
+
 The dataset contains **6 waste categories**:
 
 - 🟫 cardboard  
@@ -30,7 +32,21 @@ The dataset contains **6 waste categories**:
 - 🟡 metal  
 - 📄 paper  
 - ♻️ plastic  
-- 🗑️ trash  
+- 🗑️ trash
+
+
+| Attribute             | Description                                                   |
+| --------------------- | ------------------------------------------------------------- |
+| **Dataset Name**      | **Waste Classification Dataset**                              |
+| **Total Images**      | **~2,527 images** (approx.)                                   |
+| **Training Images**   | **1,593**                                                     |
+| **Validation Images** | **176**                                                       |
+| **Test Images**       | **758**                                                       |
+| **Number of Classes** | **6** (cardboard, glass, metal, paper, plastic, trash)        |
+| **Data Format**       | **JPEG Images**                                               |
+| **Image Size**        | **256 × 256 (resized)**                                       |
+| **Split Method**      | **Random Split using PyTorch (70% / 15% / 15%)**              |
+
 
 Images were resized to **224×224** and loaded using `ImageFolder()`.
 
@@ -47,8 +63,8 @@ Images were resized to **224×224** and loaded using `ImageFolder()`.
 | **CUDA (GPU)** | Accelerating training |
 | **ImageFolder** | Dataset management |
 | **Dropout Layers** | Reduce overfitting |
-| **Checkpointing** | Save best model |
-| **Early Stopping** | Stop training when val loss stops improving |
+
+
 
 ---
 
